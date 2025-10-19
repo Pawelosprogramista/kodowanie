@@ -1,0 +1,2 @@
+# kodowanie
+no i git
