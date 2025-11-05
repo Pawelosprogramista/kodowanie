@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Przestrzeń Rozwoju - Strona główna</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['Inter', 'ui-sans-serif', 'system-ui'],
+          },
+          colors: {
+            clay: '#E8DED1',
+            sand: '#F7F1E8',
+            terracotta: '#C97C5D',
+            dusk: '#43302E',
+            sage: '#8A9A5B',
+          },
+        },
+      },
+    }
+  </script>
+</head>
+<body class="bg-sand text-dusk font-sans">
+  <header class="relative overflow-hidden bg-gradient-to-br from-sand via-clay to-white">
+    <div class="absolute inset-0 opacity-40" aria-hidden="true">
+      <div class="absolute -top-24 -right-24 h-64 w-64 rounded-full bg-terracotta blur-3xl"></div>
+      <div class="absolute bottom-0 left-1/3 h-48 w-48 rounded-full bg-sage blur-3xl"></div>
+    </div>
+    <div class="relative mx-auto flex max-w-7xl flex-col gap-8 px-6 py-8 lg:flex-row lg:items-center lg:justify-between">
+      <nav class="flex w-full flex-col items-center gap-6 lg:flex-row lg:justify-between">
+        <a href="#" class="flex items-center gap-3 text-lg font-semibold text-dusk">
+          <span class="flex h-10 w-10 items-center justify-center rounded-full bg-terracotta text-white font-bold">PR</span>
+          <span class="text-2xl tracking-tight">Przestrzeń Rozwoju</span>
+        </a>
+        <div class="flex items-center gap-6">
+          <a href="#misja" class="text-sm font-medium text-dusk transition hover:text-terracotta">Nasza misja</a>
+          <a href="#filary" class="text-sm font-medium text-dusk transition hover:text-terracotta">Filary</a>
+          <a href="#produkty" class="text-sm font-medium text-dusk transition hover:text-terracotta">Produkty</a>
+          <a href="#opinie" class="text-sm font-medium text-dusk transition hover:text-terracotta">Historie</a>
+          <details class="relative">
+            <summary class="flex cursor-pointer list-none items-center gap-1 rounded-full bg-white/70 px-4 py-2 text-sm font-medium shadow-sm transition hover:bg-white">Zobacz nasze produkty
+              <svg class="h-4 w-4" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" aria-hidden="true">
+                <path stroke-linecap="round" stroke-linejoin="round" d="m6 9 6 6 6-6"></path>
+              </svg>
+            </summary>
+            <div class="absolute right-0 mt-3 w-56 rounded-2xl border border-clay bg-white p-4 shadow-xl">
+              <a href="#produkty" class="block rounded-lg px-3 py-2 text-sm font-medium text-dusk transition hover:bg-sand">Kursy transformacyjne</a>
+              <a href="#produkty" class="block rounded-lg px-3 py-2 text-sm font-medium text-dusk transition hover:bg-sand">Audio przewodniki</a>
+              <a href="#produkty" class="block rounded-lg px-3 py-2 text-sm font-medium text-dusk transition hover:bg-sand">Planner równowagi</a>
+              <a href="#produkty" class="block rounded-lg px-3 py-2 text-sm font-medium text-dusk transition hover:bg-sand">Sesje mentoringowe</a>
+            </div>
+          </details>
+        </div>
+      </nav>
+      <div class="max-w-xl space-y-6 text-center lg:text-left">
+        <span class="inline-flex items-center rounded-full bg-white/80 px-4 py-1 text-xs font-semibold uppercase tracking-widest text-terracotta">Witaj w domowej przestrzeni zmiany</span>
+        <h1 class="text-4xl font-bold leading-tight text-dusk sm:text-5xl">Rozpal w sobie pewność, produktywność i wewnętrzną równowagę.</h1>
+        <p class="text-lg text-dusk/80">Tworzymy harmonijną ścieżkę rozwoju osobistego poprzez inspirujące programy, narzędzia i społeczność, która wspiera autentyczną zmianę każdego dnia.</p>
+        <div class="flex flex-col items-center gap-3 sm:flex-row">
+          <a href="#produkty" class="inline-flex items-center justify-center rounded-full bg-terracotta px-6 py-3 text-sm font-semibold text-white shadow-lg transition hover:-translate-y-0.5 hover:shadow-2xl">Poznaj ofertę</a>
+          <a href="#blog" class="inline-flex items-center justify-center rounded-full border border-terracotta px-6 py-3 text-sm font-semibold text-terracotta transition hover:bg-terracotta/10">Wejdź na blog</a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="mx-auto max-w-6xl space-y-24 px-6 py-16">
+    <section id="misja" class="rounded-3xl bg-white/80 p-10 shadow-xl shadow-clay/40">
+      <h2 class="text-3xl font-bold text-dusk">Nasza misja</h2>
+      <p class="mt-6 text-lg leading-relaxed text-dusk/80">
+        Przestrzeń Rozwoju powstała, aby towarzyszyć w budowaniu spokojnej pewności siebie, która wynika z głębokiego zrozumienia własnych wartości. Tworzymy miejsce, gdzie inspiracja spotyka się z praktycznymi narzędziami, a codzienne wyzwania przekuwane są w świadome decyzje. Wierzymy, że konsekwentny rozwój wewnętrzny wzmacnia produktywność, dodaje lekkości w relacjach i pozwala pielęgnować dobrostan emocjonalny. Nasze programy łączą nowoczesne metody z empatyczną narracją, aby każdy mógł odnaleźć rytm pracy nad sobą. Stawiamy na działania, które pomagają wrócić do wewnętrznej równowagi i odważnie sięgać po życiowe cele. Dążymy do tego, by każdy uczestnik mógł poczuć, że otwartość, ciekawość i troska o siebie są fundamentami trwałej zmiany.
+      </p>
+    </section>
+
+    <section id="filary" class="space-y-10">
+      <div class="flex flex-col gap-3 text-center">
+        <h2 class="text-3xl font-bold text-dusk">Trzy filary naszej działalności</h2>
+        <p class="text-dusk/70">Każdy program opiera się na harmonii wsparcia, edukacji i energii, dzięki czemu rozwój jest pełny i satysfakcjonujący.</p>
+      </div>
+      <div class="grid gap-8 md:grid-cols-3">
+        <div class="rounded-3xl bg-white p-8 shadow-lg shadow-clay/30">
+          <div class="flex h-14 w-14 items-center justify-center rounded-full bg-terracotta/20 text-3xl">🤝</div>
+          <h3 class="mt-6 text-xl font-semibold text-dusk">Wsparcie</h3>
+          <p class="mt-3 text-dusk/70">Regularne sesje mentoringowe, czat z mentorkami oraz wspólnota, która celebruje postępy i pomaga wracać do równowagi.</p>
+        </div>
+        <div class="rounded-3xl bg-white p-8 shadow-lg shadow-clay/30">
+          <div class="flex h-14 w-14 items-center justify-center rounded-full bg-terracotta/20 text-3xl">📚</div>
+          <h3 class="mt-6 text-xl font-semibold text-dusk">Edukacja</h3>
+          <p class="mt-3 text-dusk/70">Kursy wideo, audio i materiały PDF, które prowadzą krok po kroku w kierunku świadomej produktywności i odwagi w działaniu.</p>
+        </div>
+        <div class="rounded-3xl bg-white p-8 shadow-lg shadow-clay/30">
+          <div class="flex h-14 w-14 items-center justify-center rounded-full bg-terracotta/20 text-3xl">✨</div>
+          <h3 class="mt-6 text-xl font-semibold text-dusk">Wewnętrzna energia</h3>
+          <p class="mt-3 text-dusk/70">Praktyki oddechowe, rytuały wdzięczności i muzyczne sesje, które pomagają utrzymać równowagę wewnętrzną i pozytywne nastawienie.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="produkty" class="space-y-10">
+      <div class="flex flex-col gap-3 text-center">
+        <h2 class="text-3xl font-bold text-dusk">Popularne produkty</h2>
+        <p class="text-dusk/70">Zobacz propozycje, które klienci wybierają najczęściej, aby wzmacniać pewność siebie i czerpać radość z rozwoju.</p>
+      </div>
+      <div class="grid gap-8 lg:grid-cols-2">
+        <article class="flex flex-col overflow-hidden rounded-3xl bg-white shadow-xl shadow-clay/30 sm:flex-row">
+          <img src="https://images.unsplash.com/photo-1529333166437-7750a6dd5a70?auto=format&fit=crop&w=900&q=80" alt="Notebook i kubek na biurku" class="h-56 w-full object-cover sm:h-auto sm:w-1/2" />
+          <div class="flex flex-1 flex-col gap-3 p-8">
+            <span class="self-start rounded-full bg-terracotta/15 px-3 py-1 text-xs font-semibold uppercase tracking-widest text-terracotta">Kurs online</span>
+            <h3 class="text-2xl font-semibold text-dusk">Akademia Pewności Siebie</h3>
+            <p class="text-dusk/70">Ośmiotygodniowy program wideo z ćwiczeniami, workbookami i sesjami Q&A, które uczą, jak mówić o swoich potrzebach z odwagą i spokojem.</p>
+            <div class="mt-auto flex items-center justify-between">
+              <span class="text-lg font-semibold text-terracotta">299 zł</span>
+              <a href="#" class="text-sm font-semibold text-terracotta underline underline-offset-4 transition hover:text-dusk">Zobacz szczegóły</a>
+            </div>
+          </div>
+        </article>
+        <article class="flex flex-col overflow-hidden rounded-3xl bg-white shadow-xl shadow-clay/30 sm:flex-row">
+          <img src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?auto=format&fit=crop&w=900&q=80" alt="Kobieta pisząca w plannerze" class="h-56 w-full object-cover sm:h-auto sm:w-1/2" />
+          <div class="flex flex-1 flex-col gap-3 p-8">
+            <span class="self-start rounded-full bg-terracotta/15 px-3 py-1 text-xs font-semibold uppercase tracking-widest text-terracotta">Planner</span>
+            <h3 class="text-2xl font-semibold text-dusk">Planner Dobrostanu 360°</h3>
+            <p class="text-dusk/70">Papierowy planer z kartami refleksji, habit trackerem i mini rytuałami, który pomaga łączyć produktywność z troską o samopoczucie.</p>
+            <div class="mt-auto flex items-center justify-between">
+              <span class="text-lg font-semibold text-terracotta">129 zł</span>
+              <a href="#" class="text-sm font-semibold text-terracotta underline underline-offset-4 transition hover:text-dusk">Zobacz szczegóły</a>
+            </div>
+          </div>
+        </article>
+        <article class="flex flex-col overflow-hidden rounded-3xl bg-white shadow-xl shadow-clay/30 sm:flex-row">
+          <img src="https://images.unsplash.com/photo-1517430816045-df4b7de11d1d?auto=format&fit=crop&w=900&q=80" alt="Zestaw słuchawek i telefonu" class="h-56 w-full object-cover sm:h-auto sm:w-1/2" />
+          <div class="flex flex-1 flex-col gap-3 p-8">
+            <span class="self-start rounded-full bg-terracotta/15 px-3 py-1 text-xs font-semibold uppercase tracking-widest text-terracotta">Audio</span>
+            <h3 class="text-2xl font-semibold text-dusk">Biblioteka Audio Harmonii</h3>
+            <p class="text-dusk/70">Subskrypcja miesięczna z medytacjami, wizualizacjami i krótkimi lekcjami, które wspierają koncentrację, ukojenie i radość działania.</p>
+            <div class="mt-auto flex items-center justify-between">
+              <span class="text-lg font-semibold text-terracotta">59 zł / mies.</span>
+              <a href="#" class="text-sm font-semibold text-terracotta underline underline-offset-4 transition hover:text-dusk">Zobacz szczegóły</a>
+            </div>
+          </div>
+        </article>
+        <article class="flex flex-col overflow-hidden rounded-3xl bg-white shadow-xl shadow-clay/30 sm:flex-row">
+          <img src="https://images.unsplash.com/photo-1484981137413-879e31975351?auto=format&fit=crop&w=900&q=80" alt="Grupa osób podczas spotkania" class="h-56 w-full object-cover sm:h-auto sm:w-1/2" />
+          <div class="flex flex-1 flex-col gap-3 p-8">
+            <span class="self-start rounded-full bg-terracotta/15 px-3 py-1 text-xs font-semibold uppercase tracking-widest text-terracotta">Program mentoringowy</span>
+            <h3 class="text-2xl font-semibold text-dusk">Krąg Energii Wewnętrznej</h3>
+            <p class="text-dusk/70">Trzymiesięczny program grupowy z live'ami, mastermindami i wsparciem specjalistów, aby konsekwentnie realizować cele bez utraty lekkości.</p>
+            <div class="mt-auto flex items-center justify-between">
+              <span class="text-lg font-semibold text-terracotta">890 zł</span>
+              <a href="#" class="text-sm font-semibold text-terracotta underline underline-offset-4 transition hover:text-dusk">Zobacz szczegóły</a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="overflow-hidden rounded-3xl bg-gradient-to-br from-white via-clay to-sand p-12 shadow-inner" aria-labelledby="sekcja-motywacyjna">
+      <div class="grid gap-12 lg:grid-cols-[1.3fr_1fr] lg:items-center">
+        <div class="space-y-8">
+          <h2 id="sekcja-motywacyjna" class="text-3xl font-bold text-dusk">Zatrzymaj się na chwilę inspiracji</h2>
+          <blockquote class="rounded-3xl bg-white/70 p-6 text-lg italic text-dusk/90 shadow-lg">„Kiedy pielęgnujesz swoją wewnętrzną równowagę, każda decyzja staje się krokiem, a nie skokiem. Wtedy droga do celu jest tak samo satysfakcjonująca, jak jego osiągnięcie.”</blockquote>
+          <p class="text-lg leading-relaxed text-dusk/80">Każdy proces transformacji rozpoczyna się od czułej obserwacji i akceptacji obecnego stanu. W Przestrzeni Rozwoju łączymy mądrość emocji z nowoczesnymi narzędziami produktywności, aby codzienne działania były spójne z Twoją tożsamością. Zachęcamy do działania krok po kroku, z ciekawością, bez porównywania się i z celebracją małych sukcesów. Nasze materiały pomogą Ci budować zaufanie do własnych decyzji oraz utrzymać rytm pracy, który nie wyczerpuje, a dodaje lekkości.
+          </p>
+          <div class="flex flex-col gap-3 sm:flex-row">
+            <a href="#produkty" class="inline-flex items-center justify-center rounded-full bg-terracotta px-6 py-3 text-sm font-semibold text-white shadow-lg transition hover:-translate-y-0.5 hover:shadow-2xl">Sprawdź produkty</a>
+            <a href="#newsletter" class="inline-flex items-center justify-center rounded-full border border-terracotta px-6 py-3 text-sm font-semibold text-terracotta transition hover:bg-terracotta/10">Dołącz do społeczności</a>
+          </div>
+        </div>
+        <div class="relative">
+          <div class="absolute -top-6 -left-6 h-24 w-24 rounded-full bg-terracotta/30 blur-3xl"></div>
+          <div class="absolute bottom-0 right-0 h-32 w-32 rounded-full bg-sage/30 blur-3xl"></div>
+          <img src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=900&q=80" alt="Osoba trzymająca filiżankę" class="relative z-10 w-full rounded-3xl object-cover shadow-2xl" />
+        </div>
+      </div>
+    </section>
+
+    <section id="opinie" class="space-y-10">
+      <div class="flex flex-col gap-3 text-center">
+        <h2 class="text-3xl font-bold text-dusk">Głosy naszej społeczności</h2>
+        <p class="text-dusk/70">Opinie, wiadomości i migawki z social mediów, które pokazują realne przemiany i poczucie sprawczości.</p>
+      </div>
+      <div class="grid gap-8 lg:grid-cols-3">
+        <article class="flex flex-col gap-4 rounded-3xl bg-white p-8 shadow-xl shadow-clay/30">
+          <p class="text-dusk/80">„Dzięki kursowi zrozumiałam, jak łączyć ambitne projekty z troską o własne granice. Codzienna lista rytuałów to mój ulubiony punkt dnia.”</p>
+          <div class="text-sm font-semibold text-terracotta">Anna, liderka zespołu</div>
+          <img src="https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=700&q=80" alt="Zrzut ekranu z komentarza" class="rounded-2xl border border-clay object-cover" />
+        </article>
+        <article class="flex flex-col gap-4 rounded-3xl bg-white p-8 shadow-xl shadow-clay/30">
+          <p class="text-dusk/80">„Mentoring pomógł mi odblokować kreatywność. Wreszcie mam spójną wizję, a zespół zauważył moją spokojną pewność działania.”</p>
+          <div class="text-sm font-semibold text-terracotta">Marek, przedsiębiorca</div>
+          <img src="https://images.unsplash.com/photo-1587614382346-4ec892f9aca3?auto=format&fit=crop&w=700&q=80" alt="Zrzut ekranu z wiadomości" class="rounded-2xl border border-clay object-cover" />
+        </article>
+        <article class="flex flex-col gap-4 rounded-3xl bg-white p-8 shadow-xl shadow-clay/30">
+          <p class="text-dusk/80">„Audio Biblioteka Harmonii stała się moim wieczornym rytuałem. Świetnie poprawia samopoczucie i pomaga zasypiać z wdzięcznością.”</p>
+          <div class="text-sm font-semibold text-terracotta">Joanna, projektantka UX</div>
+          <img src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?auto=format&fit=crop&w=700&q=80" alt="Zrzut ekranu z Instagrama" class="rounded-2xl border border-clay object-cover" />
+        </article>
+      </div>
+    </section>
+
+    <section id="blog" class="space-y-10">
+      <div class="flex flex-col gap-3 text-center">
+        <h2 class="text-3xl font-bold text-dusk">Nasz blog</h2>
+        <p class="text-dusk/70">Co tydzień publikujemy inspirujące historie, narzędzia i praktyki, które możesz wdrożyć od razu.</p>
+      </div>
+      <div class="grid gap-6 md:grid-cols-2">
+        <article class="rounded-3xl bg-white p-8 shadow-lg shadow-clay/30">
+          <span class="text-xs font-semibold uppercase tracking-widest text-terracotta">Nowość</span>
+          <h3 class="mt-4 text-2xl font-semibold text-dusk">Jak budować odważne nawyki bez presji</h3>
+          <p class="mt-3 text-dusk/70">Poznaj pięć kroków, dzięki którym każde postanowienie staje się lekkie, a Twoje działania konsekwentnie wspierają cele.</p>
+          <a href="#" class="mt-4 inline-flex items-center gap-2 text-sm font-semibold text-terracotta transition hover:text-dusk">Czytaj więcej
+            <svg class="h-4 w-4" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" aria-hidden="true">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12l-7.5 7.5M3 12h18"></path>
+            </svg>
+          </a>
+        </article>
+        <article class="rounded-3xl bg-white p-8 shadow-lg shadow-clay/30">
+          <span class="text-xs font-semibold uppercase tracking-widest text-terracotta">Społeczność</span>
+          <h3 class="mt-4 text-2xl font-semibold text-dusk">Rytuały poranka dla równowagi emocjonalnej</h3>
+          <p class="mt-3 text-dusk/70">Ćwiczenia oddechowe, dziennik wdzięczności i mini rutyna ruchowa, które dodają energii oraz budują zaufanie do własnych decyzji.</p>
+          <a href="#" class="mt-4 inline-flex items-center gap-2 text-sm font-semibold text-terracotta transition hover:text-dusk">Czytaj więcej
+            <svg class="h-4 w-4" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" aria-hidden="true">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12l-7.5 7.5M3 12h18"></path>
+            </svg>
+          </a>
+        </article>
+        <article class="rounded-3xl bg-white p-8 shadow-lg shadow-clay/30">
+          <span class="text-xs font-semibold uppercase tracking-widest text-terracotta">Podcast</span>
+          <h3 class="mt-4 text-2xl font-semibold text-dusk">Rozmowy o produktywności z empatią</h3>
+          <p class="mt-3 text-dusk/70">Wywiady z liderkami i liderami, którzy budują firmy i projekty w oparciu o uważność i troskę o dobrostan zespołu.</p>
+          <a href="#" class="mt-4 inline-flex items-center gap-2 text-sm font-semibold text-terracotta transition hover:text-dusk">Czytaj więcej
+            <svg class="h-4 w-4" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" aria-hidden="true">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12l-7.5 7.5M3 12h18"></path>
+            </svg>
+          </a>
+        </article>
+        <article class="rounded-3xl bg-white p-8 shadow-lg shadow-clay/30">
+          <span class="text-xs font-semibold uppercase tracking-widest text-terracotta">Przewodnik</span>
+          <h3 class="mt-4 text-2xl font-semibold text-dusk">Wieczorne zamknięcia dnia z wdzięcznością</h3>
+          <p class="mt-3 text-dusk/70">Praktyczne wskazówki jak podsumowywać dzień, aby zasypiać z poczuciem spokoju i satysfakcji z wykonanych zadań.</p>
+          <a href="#" class="mt-4 inline-flex items-center gap-2 text-sm font-semibold text-terracotta transition hover:text-dusk">Czytaj więcej
+            <svg class="h-4 w-4" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" aria-hidden="true">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12l-7.5 7.5M3 12h18"></path>
+            </svg>
+          </a>
+        </article>
+      </div>
+    </section>
+
+    <section id="newsletter" class="rounded-3xl bg-terracotta text-white p-12 shadow-[0_30px_60px_rgba(201,124,93,0.35)]">
+      <div class="grid gap-8 lg:grid-cols-[1.2fr_1fr] lg:items-center">
+        <div class="space-y-6">
+          <h2 class="text-3xl font-bold">Zapisz się do newslettera</h2>
+          <p class="text-lg text-white/90">Dołącz i odbierz zniżkę 20% na pierwszy produkt. W każdym wydaniu znajdziesz inspiracje do pielęgnowania dobrostanu emocjonalnego, zaproszenia na wydarzenia i wskazówki jak budować produktywne rytuały.</p>
+          <ul class="space-y-2 text-white/90">
+            <li class="flex items-start gap-3"><span class="mt-1 text-lg">🌿</span><span>Ekskluzywne nagrania audio dostępne tylko dla subskrybentów.</span></li>
+            <li class="flex items-start gap-3"><span class="mt-1 text-lg">🧭</span><span>Przewodniki PDF pomagające utrzymać wewnętrzną równowagę w dynamicznych projektach.</span></li>
+            <li class="flex items-start gap-3"><span class="mt-1 text-lg">🤍</span><span>Dostęp do społeczności Q&A oraz zapowiedzi nowych produktów przed premierą.</span></li>
+          </ul>
+        </div>
+        <form class="space-y-4">
+          <label class="block text-sm font-semibold uppercase tracking-widest text-white/90" for="email">Adres e-mail</label>
+          <input id="email" type="email" placeholder="imie@twojemail.pl" class="w-full rounded-full border border-white/60 bg-white/20 px-6 py-3 text-base text-white placeholder:text-white/70 focus:border-white focus:outline-none focus:ring-2 focus:ring-white/80" required />
+          <button type="submit" class="w-full rounded-full bg-white px-6 py-3 text-sm font-semibold text-terracotta transition hover:bg-sand">Odbierz zniżkę 20%</button>
+          <p class="text-xs text-white/80">Dołączając akceptujesz naszą politykę prywatności i potwierdzasz chęć otrzymywania inspirujących wiadomości.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="bg-dusk text-sand">
+    <div class="mx-auto grid max-w-6xl gap-12 px-6 py-14 sm:grid-cols-2 lg:grid-cols-4">
+      <div class="space-y-4">
+        <a href="#" class="flex items-center gap-3 text-lg font-semibold text-sand">
+          <span class="flex h-10 w-10 items-center justify-center rounded-full bg-terracotta text-white font-bold">PR</span>
+          <span>Przestrzeń Rozwoju</span>
+        </a>
+        <p class="text-sm text-sand/70">Pomagamy zamieniać ciekawość siebie w konkretne działania, które wzmacniają pewność i radość życia.</p>
+      </div>
+      <div class="space-y-3">
+        <h3 class="text-sm font-semibold uppercase tracking-widest text-sand/80">Kontakt</h3>
+        <p class="text-sm text-sand/70">ul. Inspiracji 12, 00-000 Warszawa</p>
+        <a href="mailto:kontakt@przestrzenrozwoju.pl" class="text-sm text-sand/70 transition hover:text-white">kontakt@przestrzenrozwoju.pl</a>
+        <a href="tel:+48123456789" class="block text-sm text-sand/70 transition hover:text-white">+48 123 456 789</a>
+      </div>
+      <div class="space-y-3">
+        <h3 class="text-sm font-semibold uppercase tracking-widest text-sand/80">Informacje</h3>
+        <a href="#" class="block text-sm text-sand/70 transition hover:text-white">Polityka prywatności</a>
+        <a href="#" class="block text-sm text-sand/70 transition hover:text-white">Regulamin</a>
+        <a href="#" class="block text-sm text-sand/70 transition hover:text-white">FAQ</a>
+      </div>
+      <div class="space-y-3">
+        <h3 class="text-sm font-semibold uppercase tracking-widest text-sand/80">Media społecznościowe</h3>
+        <div class="flex items-center gap-4">
+          <a href="#" class="text-sand/70 transition hover:text-white">Instagram</a>
+          <a href="#" class="text-sand/70 transition hover:text-white">Facebook</a>
+          <a href="#" class="text-sand/70 transition hover:text-white">YouTube</a>
+          <a href="#" class="text-sand/70 transition hover:text-white">LinkedIn</a>
+        </div>
+      </div>
+    </div>
+    <div class="border-t border-white/10 py-6 text-center text-xs text-sand/60">© 2024 Przestrzeń Rozwoju. Wszelkie prawa zastrzeżone.</div>
+  </footer>
+</body>
+</html>
